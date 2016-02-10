@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "webcopy",
+    "description": "Firefox OS add-on copy from the web",
+    "version": "0.4",
+    "author": "sizvix@hotmail.com",
+    "content_scripts": [{
+        "matches": ["app://system.gaiamobile.org/index.html"],
+        "css": ["css/style.css"],
+        "js": ["js/index.js"]
+    }],
+    "icons": {
+        "128": "/icons/128.png"
+    }
+}
